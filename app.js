@@ -1,6 +1,6 @@
 'use strict';
 
-const locales = require('koa-locales');
+const locales = require('koa-locales2');
 const path = require('path');
 const debug = require('debug')('egg:plugin:i18n');
 
