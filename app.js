@@ -102,9 +102,9 @@ module.exports = function(app) {
    * - cookie: `locale=zh-TW`
    * - header: `Accept-Language: zh-CN,zh;q=0.5`
    */
-  app.config.i18n.functionName = '__';
+  app.config.i18n2.functionName = '__';
 
-  locales(app, app.config.i18n);
+  locales(app, app.config.i18n2);
 
   /**
    * `ctx.__` 的别名。
@@ -114,5 +114,5 @@ module.exports = function(app) {
   app.context.gettext = app.context.__;
 
   // 自动加载 Middleware
-  app.config.coreMiddleware.push('i18n');
+  app.config.coreMiddleware.push('i18n2');
 };

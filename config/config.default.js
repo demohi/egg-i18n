@@ -18,7 +18,7 @@ module.exports = appInfo => {
    * @property {String|Number} cookieMaxAge - cookie 默认 `1y` 一年后过期，
    *   如果设置为 Number，则单位为 ms
    */
-  exports.i18n = {
+  exports.i18n2 = {
     defaultLocale: 'en_US',
     dir: path.join(appInfo.baseDir, 'config/locales'),
     queryField: 'locale',
